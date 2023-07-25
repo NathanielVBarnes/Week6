@@ -1,8 +1,9 @@
 //defining the card class
 class Card {
-    constructor(rank, suit){ // represents a card with properties suit and rank to represent 
+    constructor(rank, suit, value){ // represents a card with properties suit and rank to represent 
         this.rank = rank;
         this.suit = suit;
+        this.value = value;
     }
     getRankValue() {  // this method returns the numerical value of the card's rank
         if (this.rank === 'A') return 14;  // Ace
